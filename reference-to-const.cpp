@@ -45,7 +45,7 @@ int main()
 
 	/*
 	//We CANNOT:
-	//Create non-const reference to the const (return) value:
+	//Initialize reference to non-const with the const (return) value:
 	int &non_const_ref_to_const = prizes(a);
 
 	//Initialize reference to non-const with a non-lvalue:
